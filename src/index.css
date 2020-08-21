@@ -137,3 +137,53 @@
   font-family: mulish;
   font-size: 1.5rem;
 }
+
+
+.carddiv{
+  display: flex;
+  justify-content: center;
+}
+
+.carddiv input{
+  height: 30px;
+  width: 100px;
+  border: 2px solid grey;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.carddiv button{
+  height: 28px;
+  width: 40px;
+  background-color: cornflowerblue;
+  text-align: center;
+  border: 2px solid cornflowerblue; 
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.adddiv{
+  display: flex;
+  height: 30px;
+  width: 110px;
+  border: 1px solid cornflowerblue;
+  margin: auto;
+}
+
+.adddiv h6{
+  font-size: 0.8rem;
+  text-align: center;
+  color: cornflowerblue;
+  padding-right: 9px;
+  padding-top: 5px;
+}
+
+.adddiv button{
+height: 28px;
+width: 40px;
+margin-right: 0px;
+background-color: cornflowerblue;
+border: 2px solid cornflowerblue;
+}
+
+

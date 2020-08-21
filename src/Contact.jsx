@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 
 
+
 const Contact = () => {
 
     const [data, setData] = useState({
@@ -42,7 +43,7 @@ const Contact = () => {
                  <div className="col-10 mx-auto">
                  <div className='row'>
                  <div className="col-md-6 mx-auto">
-                 <h1 className=" mb-4" style={{fontFamily:'mulish', fontSize: '1.5rem', textDecoration:'underline'}}> Contact us </h1>
+                 <h1 className="text-center mb-4" style={{fontFamily:'mulish', fontSize: '1.5rem', textDecoration:'underline'}}> Contact us </h1>
                  <p> You can contact us on +91 9437668565 </p>
                  <form onSubmit={SubmitEvent}>
                  <div class="form-group">
@@ -68,6 +69,7 @@ const Contact = () => {
                  </div>
              </div>
          </div>
+         
         </>
     )
 }
